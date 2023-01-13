@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/texture.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display:flex;
+    align-items:center;
+}
+.fairytail{
+    width: 200px;
+    cursor: pointer;
+}
+.lines{
+    width: 28px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 80px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 5px 20px;
+}
+nav ul li a{
+    text-decoration:double;
+    color: #333;
+    transition: all .5s ease;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:black rgb(182, 128, 128);
+    box-shadow: 0 0 10px rgb(134, 84, 40);
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#333;
+}
+.content p{
+    font-style: tahoma;
+    font-size: 18px;
+    color:midnightblue;
+}
+.content{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #6ea4c4, #1a6975);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+.feature-img{
+    height: 98%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.social-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.social-icons img{
+    width: 40px;
+    margin-right: 35px;
+}
+.me h1{ 
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: #6ea4c4;
+}
+#pic{
+    display:inline-flex;
+    bottom: 0%;
+}
+#pic img{
+    width: 510px;
+    height: 380px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#intro p{
+    font-style: tahoma;
+    font-size: 15px;
+    color:black;
+}
+.aimee{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/leave.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(8, 8, 6); 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+.meme .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #b9c1e7, #0768d6);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 8px 22px rgba(63, 42, 139, 0.15);
+
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+.meme .btn:hover {
+    background-color: #9ebbe6;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .meme {
+    border-radius: 5px;
+    background-color: rgb(240, 208, 176);
+    padding: 20px;
+  }
+  .container4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/leave.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+  }
+  div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1px;
+    text-align: center;
+  }
+.container3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/leave.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+  }
